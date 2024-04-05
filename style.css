@@ -1,0 +1,17 @@
+:root {
+    --bg-colour: #2e2e2e;
+    --map-bg-colour: #000000;
+}
+
+
+
+html, body, #map {
+    height: 90vh;
+    width: 98vw;
+    background: var(--map-bg-colour);
+
+}
+#coordinate-input input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
